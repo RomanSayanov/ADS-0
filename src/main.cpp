@@ -3,5 +3,5 @@
 
 int main() {
     int result = gcd(10, 15);
-    return 0;
+    return result;
 }
