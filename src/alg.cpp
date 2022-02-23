@@ -7,7 +7,7 @@ int gcd(int a, int b) {
 	{
 	  if (a % i == 0 && b % i == 0)
 	    {
-	      cout << "NOD = " << i << endl;
+	      cout << "NOD = " << i <<;
 	      break;
 	    }
 	}
@@ -18,7 +18,7 @@ int gcd(int a, int b) {
 	{
 	  if (a % i == 0 && b % i == 0)
 	    {
-	      cout << "NOD = " << i << endl;
+	      cout << "NOD = " << i <<;
 	      break;
 	    }
 	}
