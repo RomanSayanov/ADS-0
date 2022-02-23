@@ -2,17 +2,17 @@
 
 int gcd(int a, int b) {
 if (a <= b) {
- for (int i = a; i != 0; i--) {
+  for (int i = a; i != 0; i--) {
   if (a % i == 0 && b % i == 0) {
-   return i;
+    return i;
   }
- }
+  }
 } else {
- for (int i = b; i != 0; i--) {
+  for (int i = b; i != 0; i--) {
   if (a % i == 0 && b % i == 0) {
-   return i;
+    return i;
   }
- }
+  }
 }
- return 1;
+  return 1;
 }
